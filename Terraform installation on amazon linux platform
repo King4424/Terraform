@@ -1,0 +1,6 @@
+sudo yum install -y yum-utils
+sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
+sudo yum -y install terraform
+<to connect Terraform with AWS we have to use Access key and Secret key>
+export AWS_ACCESS_KEY_ID=
+export AWS_SECRET_ACCESS_KEY=
